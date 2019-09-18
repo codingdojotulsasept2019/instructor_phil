@@ -1,0 +1,40 @@
+.container {
+    /* background-image: url('jsloups.png'); */
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 970px;
+    height: 1000px;
+    margin: 0 auto;
+}
+.container > div {
+    opacity: .5;
+    border: 1px solid black;
+    margin-left: 15px;
+}
+.header, .footer {
+    width: 950px;
+}
+.header {
+    height: 60px;
+    background-color: blue;
+}
+.nav, .main_content {
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 20px;
+}
+.nav {
+    background-color: cyan;
+    width: 165px;
+    height: 200px;
+}
+.main_content {
+    background-color: purple;
+    width: 750px;
+    height: 420px;
+}
+.footer {
+    height: 55px;
+    margin-top: 20px;
+    background-color: green;
+}
